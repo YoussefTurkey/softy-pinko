@@ -1,5 +1,10 @@
 .navbar{
-    background-color: colors.$white_color;
+    /* --- start glass effect --- */
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(4.2px);
+    -webkit-backdrop-filter: blur(4.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* --- end glass effect --- */
     margin: 10px 400px;
     padding: 15px 25px;
     border-radius: calc(variables.$radius + 20px);
