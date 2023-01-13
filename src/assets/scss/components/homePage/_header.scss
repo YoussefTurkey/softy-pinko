@@ -1,0 +1,25 @@
+.navbar{
+    background-color: colors.$white_color;
+    margin: 10px 400px;
+    padding: 15px 25px;
+    border-radius: calc(variables.$radius + 20px);
+    box-shadow: colors.$shadow;
+    position: fixed;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    transition: variables.$trans;
+    .links{
+        margin: 0 0 0 auto;
+        color: colors.$txt_color;
+        
+        a:hover{
+            color: colors.$red_color; 
+        }
+
+        .active{
+            color: colors.$red_color;
+        }
+    }
+}

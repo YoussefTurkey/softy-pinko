@@ -1,0 +1,37 @@
+.welcome{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../../../images/banner-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+
+    .info{
+        text-align: center;
+        color: colors.$white_color;
+
+        p{
+            padding: 30px 0;
+            width: 50%;
+            margin: auto;
+        }
+
+        button{
+            background-color: colors.$red_color;
+            border-radius: variables.$radius;
+            border: 1px solid colors.$red_color;
+            padding: 10px 15px;
+            text-transform: uppercase;
+
+            &:hover{
+                background-color: colors.$hover_color;
+                border: 1px solid colors.$white_color;
+            }
+        }
+    }
+}

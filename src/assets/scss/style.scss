@@ -1,0 +1,12 @@
+    // Importing Scss Files
+@use './global/reset';
+@use './global/colors';
+@use './global/variables';
+    // Importing Header Scss Files
+@import './components/homePage/header';
+@import './components/homePage/mediaHeader';
+    // Importing Welcome Scss Files
+@import './components/homePage/welcome';
+    // Importing Card Scss Files
+@import './components/homePage/card';
+@import './components/homePage/mediaCard';

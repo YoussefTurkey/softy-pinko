@@ -1,0 +1,29 @@
+.cards{
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-top: -220px;
+    z-index: 9;
+
+    .card{
+        display: block;
+        background: colors.$white_color;
+        box-shadow: colors.$shadow;
+        border-radius: variables.$radius;
+        padding: 30px;
+        text-align: center;
+        transition: variables.$trans;
+        margin-bottom: 30px;
+        cursor: pointer;
+        position: relative;
+
+        .img{
+            background-color: colors.$hover_color;
+            border-radius: 50%;
+            width: 90px;
+            height: 90px;
+            padding: 20px;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+    }
+}
