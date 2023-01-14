@@ -7,7 +7,7 @@ import left from '../../assets/images/left-image.png'
 const LeftAbout = () => {
   return (
     <>
-        <Container className="about mt-5 mb-5" id='about'>
+        <Container className="about mt-5" id='about' data-aos="fade-right">
             <Row className='d-flex align-items-center left_row'>
                 <Col className="info col-sm-12 col-md-6">
                     <img src={left} />

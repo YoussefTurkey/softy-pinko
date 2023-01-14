@@ -1,5 +1,10 @@
 .right_row{
-    padding: 0 55px;
+    padding: 15px 55px;
+    position: relative;
+
+    :first-child{
+        margin-top: 55px;
+    }
 
     p{
         color: colors.$txt_color

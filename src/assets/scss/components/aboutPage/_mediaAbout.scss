@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+    .right_row{
+        img{
+            margin: auto;
+        }
+    }
+    .left_row{
+        img{
+            display: flex;
+            margin: auto;
+        }
+    }
+}

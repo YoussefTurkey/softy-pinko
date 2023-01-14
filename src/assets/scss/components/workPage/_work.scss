@@ -1,0 +1,64 @@
+.work{
+    background-image: url('../../../images/work-process-bg.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+    margin: 55px 0;
+    text-align: center;
+
+    .title{
+        color: colors.$white_color;
+
+        p{
+            width: 40%;
+            margin: auto;
+        }
+    }
+
+
+    .rocket{
+        background: colors.$white_color;
+        padding: 20px;
+        border-radius: variables.$radius;
+        box-shadow: 0 2px 48px 0 rgb(0 0 0 / 8%);
+        margin-bottom: 30px;
+        transition: variables.$trans;
+        cursor: pointer;
+        position: relative;
+
+        &::after{
+            content: '';
+            position: absolute;
+            background: colors.$white_color;
+            width: 100%;
+            opacity: .15;
+            height: 100%;
+            bottom: -10px;
+            left: 0px;
+            right: -20px;
+            margin: auto;
+            border-radius: variables.$radius;
+        }
+
+        h5{
+            transition: variables.$trans;
+        }
+
+        p{
+            color: colors.$txt_color;
+        }
+
+        &:hover{
+            transform: translateY(-15px);
+
+            h5{
+                color: colors.$red_color
+            }
+
+            p{
+                color: colors.$black_color;
+            }
+        }
+    }
+}

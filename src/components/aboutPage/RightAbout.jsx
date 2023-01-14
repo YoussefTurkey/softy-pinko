@@ -7,12 +7,14 @@ import right from '../../assets/images/right-image.png'
 const RightAbout = () => {
   return (
     <>
-        <Container className="about mt-5">
+        <Container className="about mt-5" data-aos="fade-left">
             <Row className='d-flex align-items-center right_row'>
                 <Col className="info col-sm-12 col-md-6">
-                    <h3>Let’s discuss about you project</h3>
-                    <p className='mt-5'>Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue blandit, at finibus leo efficitur. 
-                        Nam gravida purus non sapien auctor, ut aliquam magna ullamcorper.
+                    <h3>We can help you to grow your business</h3>
+                    <p className='mt-5'>Aenean pretium, ipsum et porttitor auctor, metus ipsum iaculis nisi, 
+                        a bibendum lectus libero vitae urna. 
+                        Sed id leo eu dolor luctus congue sed eget ipsum. 
+                        Nunc nec luctus libero. Etiam quis dolor elit.
                     </p>
                 </Col>
 

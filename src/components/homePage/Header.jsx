@@ -19,7 +19,7 @@ const Header = () => (
                 <Navbar.Collapse id="navbarScroll">
 
                     <Nav className='links'>
-                        <Nav.Link href="#">Home</Nav.Link>
+                        <Nav.Link href="#welcome">Home</Nav.Link>
                         <Nav.Link href="#about">About</Nav.Link>
                         <Nav.Link href="#work">Work Process</Nav.Link>
                         <Nav.Link href="#testi">Testimonials</Nav.Link>

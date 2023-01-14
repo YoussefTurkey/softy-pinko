@@ -1,5 +1,5 @@
 .left_row{
-    padding: 0 55px;
+    padding: 15px 55px;
     position: relative;
 
     &::after{
@@ -11,6 +11,12 @@
         width: 70%;
         height: 1px;
         background-color: colors.$gray_color;
+    }
+
+    :first-child{
+        // display: flex;
+        // justify-content: center;
+        margin-bottom: 17px;
     }
 
     p{
