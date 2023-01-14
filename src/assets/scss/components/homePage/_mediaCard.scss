@@ -1,0 +1,18 @@
+@media screen and (min-width: 1400px) {
+    .card{
+        margin-left: 44px;
+        width: 30%;
+    }
+}
+@media (max-width: 1399px) and (min-width: 992px) {
+    .card{
+        margin-left: 15px;
+        width: 30%;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .card{
+        margin-left: 15px;
+        width: 45%;
+    }
+}

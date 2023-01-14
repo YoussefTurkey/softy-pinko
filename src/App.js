@@ -1,9 +1,11 @@
 import Home from './views/Home'
+import About from './views/About'
 
 function App() {
   return (
     <>
       <Home />
+      <About />
     </>
   );
 }

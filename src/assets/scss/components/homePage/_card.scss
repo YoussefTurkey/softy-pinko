@@ -9,12 +9,21 @@
         background: colors.$white_color;
         box-shadow: colors.$shadow;
         border-radius: variables.$radius;
+        border: none;
         padding: 30px;
         text-align: center;
-        transition: variables.$trans;
         margin-bottom: 30px;
         cursor: pointer;
+        transition: variables.$trans;
         position: relative;
+
+        &:hover{
+            transform: translateY(-10px);
+            
+            .img{
+                background-color: colors.$red_color;
+            }
+        }
 
         .img{
             background-color: colors.$hover_color;
@@ -24,6 +33,7 @@
             padding: 20px;
             margin: auto;
             margin-bottom: 30px;
+            transition: variables.$trans;
         }
     }
 }
