@@ -1,0 +1,48 @@
+.testi{
+    text-align: center;
+
+    .title p {
+        color: colors.$txt_color;
+        width: 60%;
+        margin: auto;
+    }
+
+    .testimonial{
+        background: colors.$white_color;
+        box-shadow: colors.$shadow;
+        border-radius: variables.$radius;
+        margin-bottom: 30px;
+        padding: 25px 15px;
+        margin-left: 44px;
+        width: 30%;
+        cursor: pointer;
+        transition: variables.$trans;
+        position: relative;
+
+        &:hover{
+            
+            .desc{
+                transform: translateX(15px);
+            }
+
+            > p{
+                color: colors.$black_color;
+            }
+        }
+
+        > p{
+            text-align: left;
+            color: colors.$txt_color;
+            padding: 25px 0;
+            transition: variables.$trans;
+        }
+
+        .desc{
+            transition: variables.$trans;
+            
+            p{
+                color: colors.$red_color;
+            }
+        }
+    }
+}

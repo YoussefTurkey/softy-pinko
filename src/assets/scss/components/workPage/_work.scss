@@ -43,10 +43,12 @@
 
         h5{
             transition: variables.$trans;
+            padding: 10px 0;
         }
 
         p{
             color: colors.$txt_color;
+            transition: variables.$trans;
         }
 
         &:hover{

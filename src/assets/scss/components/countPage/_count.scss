@@ -1,0 +1,39 @@
+.count{
+    background-image: url('../../../images/fun-facts-bg.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+    text-align: center;
+
+    .rate{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover{
+            .rate_num{
+                transform: translateY(-15px);
+            }
+        }
+
+        .rate_num{
+            transition: variables.$trans;
+            cursor: pointer;
+            
+            p{
+                font-size: 35px;
+                font-weight: variables.$font_bold;
+                color: colors.$white_color;
+            }
+
+            span{
+                color: colors.$white_color;
+            }
+        }
+
+        .img_rate{
+            margin-left: 100px;
+        }
+    }
+}
