@@ -1,0 +1,55 @@
+.contact{
+    text-align: center;
+    margin: 100px 0 0 0;
+    padding: 100px 0;
+    background-color: rgb(242, 242, 254);;
+
+    .title {
+        p{
+            color: colors.$txt_color;
+            width: 60%;
+            margin: auto;
+            padding-bottom: 50px;
+        }
+    }
+
+    .desc{
+        text-align: left;
+
+        p{
+            color: colors.$txt_color;
+        }
+    }
+
+    .form{
+        input,
+        textarea{
+            border-radius: variables.$radius;
+        }
+
+        input{
+            padding: 10px;
+        }
+
+        textarea{
+            height: 150px;
+            resize: none;
+            padding: 20px;
+        }
+
+        button{
+            display: block;
+            margin: 0 auto 0 0;
+            background-color: colors.$hover_color;
+            border-radius: variables.$radius;
+            border: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            transition: variables.$trans;
+
+            &:hover{
+                background-color: colors.$red_color;
+            }
+        }
+    }
+}

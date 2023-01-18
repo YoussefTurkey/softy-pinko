@@ -1,0 +1,25 @@
+.footer{
+    text-align: center;
+    padding: 50px 0;
+    background-image: linear-gradient(127deg, rgb(167, 89, 209) 0%, rgb(130, 97, 238) 91%);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    .icons{
+        i{
+            font-size: 25px;
+            padding: 0 10px;
+            color: colors.$white_color;
+        }
+    }
+
+    p{
+        color: colors.$white_color;
+        
+        img{
+            max-width: 100%;
+            width: 7.5%;
+        }
+    }
+}

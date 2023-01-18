@@ -1,0 +1,52 @@
+.blog{
+    text-align: center;
+
+    .title p {
+        color: colors.$txt_color;
+        width: 60%;
+        margin: auto;
+    }
+
+    .entry{
+        cursor: pointer;
+
+        .txt{
+            > h5{
+                padding: 15px 0;
+    
+                > a{
+                    color: colors.$black_color;
+                    transition: variables.$trans;
+                }
+            }
+
+            > p{
+                color: colors.$txt_color;
+                transition: variables.$trans;
+            }
+        } 
+        
+        &:hover{
+            .txt > h5 > a{
+                color: colors.$red_color;
+            }
+
+            .txt > p{
+                color: colors.$black_color;
+            }
+        }
+
+        button{
+            background-color: colors.$hover_color;
+            border-radius: variables.$radius;
+            border: none;
+            padding: 10px 20px;
+            transition: variables.$trans;
+
+            &:hover{
+                background-color: colors.$red_color;
+            }
+        }
+        
+    }
+}

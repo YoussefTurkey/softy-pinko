@@ -4,6 +4,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
   // ----- React-Bootstrap CDN -----
 import 'bootstrap/dist/css/bootstrap.min.css';
+  // ----- Boxicons CDN -----
+import 'boxicons'
   // ----- Main scss file ----- 
 import './assets/scss/style.scss';
   // ----- Main js file -----
