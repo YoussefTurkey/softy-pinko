@@ -9,11 +9,11 @@ const LeftAbout = () => {
     <>
         <Container className="about mt-5" id='about' data-aos="fade-right">
             <Row className='d-flex align-items-center left_row'>
-                <Col className="info col-sm-12 col-md-6">
+                <Col className="info col-12 col-sm-12 col-md-6">
                     <img src={left} />
                 </Col>
 
-                <Col className="info col-sm-12 col-md-6">
+                <Col className="info col-12 col-sm-12 col-md-6">
                     <h3>Let’s discuss about you project</h3>
                     <p className='mt-5'>Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue blandit, at finibus leo efficitur. 
                         Nam gravida purus non sapien auctor, ut aliquam magna ullamcorper.

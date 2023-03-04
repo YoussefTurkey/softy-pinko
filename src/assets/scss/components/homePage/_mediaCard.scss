@@ -16,3 +16,9 @@
         width: 45%;
     }
 }
+@media (max-width: 767px) {
+    .cards .card{
+        width: 90%;
+        margin: auto;
+    }
+}

@@ -8,7 +8,7 @@ const Card = () =>{
         <>
             <Container className="cards">
                 <Row>
-                    <Col className="card col-sm-12 col-md-6 col-lg-4">
+                    <Col className="card col-12 col-sm-12 col-md-6 col-lg-4">
                         <div className='img'>
                             <img src={card}/>
                         </div>
@@ -16,7 +16,7 @@ const Card = () =>{
                         <p>Customize anything in this template to fit your website needs</p>
                     </Col>
 
-                    <Col className="card col-sm-12 col-md-6 col-lg-4">
+                    <Col className="card col-12 col-sm-12 col-md-6 col-lg-4">
                         <div className='img'>
                             <img src={card}/>
                         </div>
@@ -24,7 +24,7 @@ const Card = () =>{
                         <p>Contact us immediately if you have a question in mind</p>
                     </Col>
 
-                    <Col className="card col-sm-12 col-md-6 col-lg-4">
+                    <Col className="card col-12 col-sm-12 col-md-6 col-lg-4">
                         <div className='img'>
                             <img src={card}/>
                         </div>

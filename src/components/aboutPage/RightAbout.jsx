@@ -9,7 +9,7 @@ const RightAbout = () => {
     <>
         <Container className="about mt-5" data-aos="fade-left">
             <Row className='d-flex align-items-center right_row'>
-                <Col className="info col-sm-12 col-md-6">
+                <Col className="info col-12 col-sm-12 col-md-6">
                     <h3>We can help you to grow your business</h3>
                     <p className='mt-5'>Aenean pretium, ipsum et porttitor auctor, metus ipsum iaculis nisi, 
                         a bibendum lectus libero vitae urna. 
@@ -18,7 +18,7 @@ const RightAbout = () => {
                     </p>
                 </Col>
 
-                <Col className="info col-sm-12 col-md-6">
+                <Col className="info col-12 col-sm-12 col-md-6">
                     <img src={right} />
                 </Col>
             </Row>
