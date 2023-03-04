@@ -14,7 +14,7 @@ Pricing Tables are provided for your clients.
 * Scss
 * JS
 
-**[Website Link](https://softy-pinko-digital.vercel.app)**
+**[Click here to preview the website](https://softy-pinko-digital.vercel.app)**
 
 ### UI Preview:
 ![Softy Pinko](./src/assets/images/UI.jpg)
